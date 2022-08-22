@@ -21,6 +21,18 @@
 - 추가(삽입 enqueue): 뒤에서 ex.)지하철 줄서는 순서
 - 삭제(제거 dequeue): 앞에서 ex.)지하철 타는 순서
 
+선형 큐(Linear Queue)
+- 꽉 찼다 = isfull(), 비었다 = isEmpty() 
+- 빨간 화살표(front) 보다 파란색 화살표(rear)가 한칸 전에 있으면 
+- 빨간 화살표 && 파란 화살표가 같은 곳울 가리킬때
+- 
+원형 큐(Circular Queue)
+- enqueue: 파란 화살표(rear)가 가르카는 곳에 추가
+- dequeue: 빨간 화살표(front)가 가르키는 곳을 삭제
+
+
+init(): 초기화 >> Front, Rear를 제일 앞자리(0) 설정
+
 
 
 - 7일차: (자료구조)큐, 선택정렬
