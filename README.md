@@ -1,12 +1,14 @@
 # python_DataStructure
 
-1. (자료구조) 리스트 List
+자료구조: 원래 그렇게 생기지 않았지만 그 모양으로 생겼다고 생각하는 
+
+(자료구조) 리스트 List
 - 일렬로 나열되어 있음
 - 순서가 있음
 - 추가: 원하는 위치
 - 삭제: 원하는 위치
 
-2. (자료구조) 스택 Stack
+(자료구조) 스택 Stack
 - 일렬로 나열되어 있음
 - 순서가 있음
 - 추가: 제일 위에
@@ -29,6 +31,8 @@
 원형 큐(Circular Queue)
 - enqueue: 파란 화살표(rear)가 가르카는 곳에 추가
 - dequeue: 빨간 화살표(front)가 가르키는 곳을 삭제
+
+
 
 init(): 초기화 >> Front, Rear를 제일 앞자리(0) 설정
 
@@ -62,6 +66,15 @@ self
 
 ** 위워크 **
 
+List, Stack, Queue -> 선형적 linear, 1:1 관계
+
+트리: Tree
+- 계층구조( 1(부모): N(자식)관계)
+- 비선형적
+- composed of node(root, parent, child), line
+- 최대 2 child node == binary tree(이진트리)
+- 포화 이진트리(Complete Binary Tree)는 자식이 있을거면 한 층이 다같이 있거나 아예 없음.
+= 완벽한 세모
+
 - 7일차: 선택정렬
-- 9일차: (자료구조)트리
-- 10일차: 트리, (자료구조)힙
+- 10일차: (자료구조)힙
