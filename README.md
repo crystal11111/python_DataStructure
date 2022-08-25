@@ -112,4 +112,7 @@ List, Stack, Queue -> 선형적 linear, 1:1 관계
 
 메소드 오버라이딩(method overriding)
 - 부모 클래스에게 상속받은 메소드를 자식 클래스가 입맛에 맞게 바꿔 쓸 수있음
-- 
+
+Java, C#: 다중 상속 불가
+C++, Python: 다중 상속 가능
+- class 자식클래스(부모클래스1, 부모클래스2,...)
