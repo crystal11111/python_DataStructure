@@ -86,14 +86,15 @@ List, Stack, Queue -> 선형적 linear, 1:1 관계
 힙의 기능
 - Add
 - 1) Tree와 동일하게 노드를 끝자리에 추가
-- 2) while 부모 노드 있는지 확인
+- Pseudo code: 일반 언어와 프로그래밍 언어를 섞어 만든 코드
+-    while 부모 노드 있는지 확인
 -       있으면,
 -          if 부모 노드 값보다 새 노드 값이 더 크면
 -              자리 바꿈
 -          else:
 -               break
 -       없으면, break
-- -> Pseudo code: 일반 언어와 프로그래밍 언어를 섞어 만든 코드
+-       
 - 최대 힙의 delete
 - 1) 루트 노드와 젤 끝 노드를 바꿔요
 - 2) Tree처럼 젤 끝 노드를 delete
