@@ -106,6 +106,5 @@ List, Stack, Queue -> 선형적 linear, 1:1 관계
 - 3) 자연스럽게 내림차순으로 정렬됨
 
 
-# 상속 (Inheritance)
-only for 객체지향언어
+상속 (Inheritance) - > only for 객체지향언어
 : 자식 클래스가 부모 클래스에게 뭔가를 받을 때
