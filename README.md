@@ -98,7 +98,7 @@ List, Stack, Queue -> 선형적 linear, 1:1 관계
 - 1) 루트 노드와 젤 끝 노드를 바꿔요
 - 2) Tree처럼 젤 끝 노드를 delete
 - Pseudo code: 
--    while 자식 노드가 있다
+-     while 자식 노드가 있다
 -       자식 노드들 < 타겟 노드
 -           break
 -       자식 노드들 > 타겟 노드
@@ -108,3 +108,6 @@ List, Stack, Queue -> 선형적 linear, 1:1 관계
 
 상속 (Inheritance) - > only for 객체지향언어
 : 자식 클래스가 부모 클래스에게 뭔가를 받을 때
+
+메소드 오버라이딩(method overriding)
+- 부모 클래스에게 상속받은 메소드를 자식 클래스가 입맛에 맞게 바꿔 쓸 수가 
